@@ -1,0 +1,612 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    margin: 0px auto;
+    box-shadow: 1px 1px 1px black;
+}
+
+.logo_box {
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
+
+
+.logo_box .image_logo {
+    height: 50px;
+    width: 50px;
+    margin-top: 17px;
+}
+
+.navbar_items {
+    /* background-color: red; */
+    width: 100%;
+    height: 83px;
+    position: absolute;
+    top: 30px;
+    left: 115px;
+}
+
+.unorder_list {
+    display: flex;
+    /* padding: 25px; */
+    gap: 20px;
+}
+
+.unorder_list li {
+    list-style: none;
+}
+
+.unorder_list li a {
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.unorder_list li a:hover {
+    color: green;
+    transition: 0.3s;
+}
+
+.extra_logos {
+    background-color: red;
+}
+
+.find_a_store {
+    /* background-color: yellow; */
+    position: absolute;
+    top: 0px;
+    left: 700px;
+}
+
+.find_a_store a {
+    color: black;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
+}
+
+.find_a_store a:hover {
+    color: green;
+    transition: 0.3s;
+}
+
+.find_a_store i {
+    padding-right: 10px;
+}
+
+.find_a_store i:hover {
+    color: green;
+    transition: 0.3s;
+}
+
+.buttons {
+    position: absolute;
+    top: 5px;
+    left: 900px;
+}
+
+.buttons .sign_in {
+    margin-right: 40px;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-family: monospace;
+}
+
+.buttons .sign_in:hover {
+    background-color: rgba(230, 222, 222, 0.618);
+    transition: 0.3s;
+}
+
+.buttons .black_button {
+    margin-right: 40px;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-family: monospace;
+    color: white;
+    background-color: black;
+}
+
+.buttons .black_button:hover {
+    background-color: transparent;
+    background-color: rgb(66, 66, 66);
+    opacity: 0.2px;
+}
+
+.part_1 .photo_1 img {
+    height: 590px;
+    width: 590px;
+}
+
+.photo_1 {
+    margin-top: 30px;
+    background-color: #f2f1ed;
+    height: 590px;
+}
+
+.photo_1_heading .name_1 {
+    color: rgb(67, 63, 63);
+    position: absolute;
+    top: 180px;
+    font-size: 4em;
+    left: 750px;
+    font-family: monospace;
+    font-weight: 900;
+    text-align: center;
+}
+
+.photo_1_heading .name_1_para {
+    color: rgb(67, 63, 63);
+    position: absolute;
+    top: 450px;
+    font-size: 1.5em;
+    line-height: 35px;
+    left: 705px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.order_now_1 {
+    position: absolute;
+    top: 600px;
+    left: 880px;
+}
+
+.order_now_1 a {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 40px;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.order_now_1 a:hover {
+    background-color: rgba(230, 222, 222, 0.86);
+    transition: 0.3s;
+}
+
+
+.part_2 {
+    margin-top: 30px;
+    background-color: rgb(44, 63, 17);
+    height: 550px;
+    width: 100%;
+}
+
+.part_2 .photo_2 img {
+    position: absolute;
+    right: 0px;
+    height: 550px;
+    width: 680px;
+}
+
+.name_2 {
+    color: white;
+    position: relative;
+    top: 70px;
+    left: -340px;
+    font-size: 4.1em;
+    font-family: monospace;
+    font-weight: 900;
+    text-align: center;
+}
+
+.name_2_para {
+    color: white;
+    position: relative;
+    top: 95px;
+    left: -340px;
+    font-size: 1.4em;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.order_now_2 a {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 40px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.order_now_2 {
+    position: relative;
+    top: 145px;
+    left: 217px;
+}
+
+.order_now_2 a:hover {
+    background-color: rgba(106, 100, 100, 0.359);
+    transition: 0.3s;
+}
+
+.part_3 {
+    background-color: rgb(218, 218, 161);
+    height: 400px;
+    margin-top: 30px;
+}
+
+.photo_3 img {
+    height: 400px;
+    width: 589px;
+}
+
+.name_3 {
+    color: rgba(42, 40, 40, 0.896);
+    font-size: 2em;
+    font-family: monospace;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: -330px;
+    right: -300px;
+}
+
+.name_3_para {
+    color: rgba(42, 40, 40, 0.896);
+    position: relative;
+    top: -300px;
+    right: -300px;
+    font-size: 1.2em;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+.name_3_para a {
+    color: black;
+    font-weight: 900;
+}
+
+
+.order_now_3 a {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 40px;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 700;
+    position: relative;
+    top: -250px;
+    right: -880px;
+}
+
+.order_now_3 a:hover {
+    background-color: rgba(198, 187, 187, 0.359);
+    transition: 0.3s;
+}
+
+.part_4 {
+    background-color: rgb(0, 94, 66);
+    height: 500px;
+    margin-top: 30px;
+}
+
+.photo_4 img {
+    position: absolute;
+    right: 0px;
+    height: 500px;
+    width: 680px;
+}
+
+.name_4 {
+    color: white;
+    font-size: 3em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 75px;
+    left: -350px;
+}
+
+.name_4_para {
+    color: white;
+    position: relative;
+    top: 105px;
+    left: -350px;
+    font-size: 1.5em;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+.order_now_4 a {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 40px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 700;
+    position: relative;
+    top: 170px;
+    left: 217px;
+
+}
+
+.order_now_4 a:hover {
+    background-color: rgba(54, 51, 51, 0.627);
+    transition: 0.3s;
+}
+
+.footer_box {
+    height: 500px;
+    width: 100vw;
+    background-color: white
+}
+
+.para_1 {
+    /* background-color: red; */
+    margin: 40px auto;
+    width: 80%;
+}
+
+.para_1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+.para_2 {
+    /* background-color: yellow; */
+    margin: 50px;
+}
+
+.para_2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 20px;
+}
+
+.para_3 {
+    margin: 80px;
+}
+
+.para_3 p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.93em;
+    line-height: 20px;
+}
+
+.para_2 .link_starbucks {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.para_2 .link_starbucks:hover {
+    text-decoration: none;
+}
+
+.footer_content_uniform {
+    background-color: white;
+    position: relative;
+    top: -80px;
+    height: 430px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 6px rgb(151, 144, 144);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    color: rgb(103, 98, 98);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.footer_item_1 {
+    /* background-color: red; */
+    padding: 30px;
+    line-height: 50px;
+    margin-top: -17px;
+}
+
+.footer_item_1 p {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
+.footer_item_2 {
+    /* background-color: red; */
+    padding: 30px;
+    line-height: 50px;
+    margin-top: -17px;
+    margin-left: -40px;
+}
+
+.footer_item_2 p {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.footer_item_3 {
+    /* background-color: red; */
+    padding: 30px;
+    line-height: 45px;
+    margin-top: -10px;
+    margin-left: -50px;
+    margin-right: -45px;
+}
+
+.footer_item_3 p {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.footer_item_4 {
+    /* background-color: red; */
+    padding: 30px;
+    line-height: 50px;
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-right: -50px;
+}
+
+.footer_item_4 p {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.footer_item_5 {
+    /* background-color: red; */
+    padding: 30px;
+    line-height: 45px;
+    margin-top: -10px;
+}
+
+.footer_item_5 p {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.social_media_icon {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    /* background-color: red; */
+    position: relative;
+    top: -50px;
+    left: 40px;
+
+}
+
+.social_media_icon img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+
+}
+
+.social_media_icon .facebook_logo {
+    height: 37px;
+    width: 43px;
+    position: relative;
+    top: -3px;
+}
+
+.social_media_icon .insta_logo {
+    height: 37px;
+    width: 37px;
+    position: relative;
+    top: -3px;
+}
+
+
+.social_media_icon .spotify_logo {
+    position: relative;
+    top: 2px;
+}
+
+.links {
+    /* background-color: yellow; */
+    position: relative;
+    top: -45px;
+    left: 39px;
+}
+
+.Footer_text {
+    color: rgb(53, 51, 51);
+    font-family: "Open Sans", sans-serif;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Footer_text:hover {
+    text-decoration: underline;
+}
+
+.last_but_not_the_list {
+    /* background-color: yellow; */
+    margin-top: 30px;
+}
+
+.last_but_not_the_list p {
+    font-family: sans-serif;
+    color: rgb(96, 92, 92);
+    font-size: 15px;
+
+}
+
+
+.footer_item_1 a:hover {
+    color: black;
+}
+
+.footer_item_2 a:hover {
+    color: black;
+}
+
+.footer_item_3 a:hover {
+    color: black;
+}
+
+.footer_item_4 a:hover {
+    color: black;
+}
+
+.footer_item_5 a:hover {
+    color: black;
+}
+
+
+
+/* Media Queries Pending 👽 */
