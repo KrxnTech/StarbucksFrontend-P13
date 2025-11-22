@@ -9,7 +9,7 @@
 
 <h2>Min Tech Stack - HTML & CSS</h2>  
 -> It improves my Cloning Skills  
--> I love this Clone Cause it is my first Project i have ever made using HTML and CSS 💗  
+-> I love this Clone Cause it is my first Project i have ever made using HTML and CSS 💗 
 
 
 
