@@ -7,15 +7,13 @@
 <img width="1891" height="621" alt="Screenshot 2025-11-22 103550" src="https://github.com/user-attachments/assets/f7839d58-f5c9-47da-a139-1bc4b4120e0e" />
 ---
 
-
-Min Tech Stack - HTML & CSS  
+<h2>Min Tech Stack - HTML & CSS</h2>  
 -> It improves my Cloning Skills  
 -> I love this Clone Cause it is my first Project i have ever made using HTML and CSS 💗  
 
 
 
-
-THANKS ✌️
+<h2>THANKS ✌️</h2>
 
 
 
