@@ -1,4 +1,4 @@
-<h1>Take a Look ------------------------------------------------------------- 💗👇</h1>
+<h1>Take a Look 💗</h1>
 
 <img width="1888" height="913" alt="Screenshot 2025-11-22 103530" src="https://github.com/user-attachments/assets/54eba477-5862-4998-9552-8d8aae3fbbb6" />
 ---
